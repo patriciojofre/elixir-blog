@@ -19,6 +19,8 @@ defmodule BlogPhoenix.Router do
     get "/", PageController, :index
   end
 
+  resources "/posts", PostController
+  
   # Other scopes may use custom stacks.
   # scope "/api", BlogPhoenix do
   #   pipe_through :api
