@@ -19,7 +19,7 @@ defmodule BlogPhoenix.Mixfile do
   def application do
     [mod: {BlogPhoenix, []},
      applications: [:phoenix, :phoenix_pubsub, :phoenix_html, :cowboy, :logger, :gettext,
-                    :phoenix_ecto, :postgrex]]
+                    :phoenix_ecto, :mariaex]]
   end
 
   # Specifies which paths to compile per environment.
